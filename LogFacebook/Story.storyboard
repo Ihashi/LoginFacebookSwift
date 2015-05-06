@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jSf-JG-Uf7">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Feed View Controller-->
+        <scene sceneID="7RY-mb-zPt">
+            <objects>
+                <viewController storyboardIdentifier="Feed View" id="jSf-JG-Uf7" customClass="FeedViewController" customModule="LogFacebook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nQI-A8-b0w"/>
+                        <viewControllerLayoutGuide type="bottom" id="4yc-nH-Tmi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="12z-p8-Qas">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2I-UQ-yhf">
+                                <rect key="frame" x="16" y="28" width="159" height="30"/>
+                                <state key="normal" title="Back to facebook login">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButton" destination="jSf-JG-Uf7" eventType="touchUpInside" id="iwb-vW-RrR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FeedViewController" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLd-ig-KWL">
+                                <rect key="frame" x="225" y="289" width="150" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WLd-ig-KWL" firstAttribute="centerX" secondItem="12z-p8-Qas" secondAttribute="centerX" id="I1A-E8-koy"/>
+                            <constraint firstItem="g2I-UQ-yhf" firstAttribute="top" secondItem="nQI-A8-b0w" secondAttribute="bottom" constant="8" symbolic="YES" id="htR-PF-uQZ"/>
+                            <constraint firstItem="WLd-ig-KWL" firstAttribute="top" secondItem="nQI-A8-b0w" secondAttribute="bottom" constant="269" id="oS6-p8-11V"/>
+                            <constraint firstItem="g2I-UQ-yhf" firstAttribute="leading" secondItem="12z-p8-Qas" secondAttribute="leadingMargin" id="pjA-I3-d3b"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vGh-CV-SIa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="714" y="490"/>
+        </scene>
+    </scenes>
+</document>

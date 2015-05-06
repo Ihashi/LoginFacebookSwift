@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		640ED43B1AF8FF6600746E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640ED43A1AF8FF6600746E16 /* AppDelegate.swift */; };
-		640ED43D1AF8FF6600746E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640ED43C1AF8FF6600746E16 /* ViewController.swift */; };
+		640ED43D1AF8FF6600746E16 /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640ED43C1AF8FF6600746E16 /* FacebookViewController.swift */; };
 		640ED4401AF8FF6600746E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640ED43E1AF8FF6600746E16 /* Main.storyboard */; };
 		640ED4421AF8FF6600746E16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640ED4411AF8FF6600746E16 /* Images.xcassets */; };
 		640ED4451AF8FF6600746E16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 640ED4431AF8FF6600746E16 /* LaunchScreen.xib */; };
 		640ED4511AF8FF6700746E16 /* LogFacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640ED4501AF8FF6700746E16 /* LogFacebookTests.swift */; };
+		640ED45B1AF900E200746E16 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640ED45A1AF900E200746E16 /* FBSDKCoreKit.framework */; };
+		640ED45D1AF9016700746E16 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640ED45C1AF9016700746E16 /* FBSDKLoginKit.framework */; };
+		640ED4601AF9068900746E16 /* Story.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640ED45F1AF9068900746E16 /* Story.storyboard */; };
+		640ED4621AF907CC00746E16 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640ED4611AF907CC00746E16 /* FeedViewController.swift */; };
+		640ED4641AF91E0E00746E16 /* BackgroundVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640ED4631AF91E0E00746E16 /* BackgroundVideoViewController.swift */; };
+		64D6C7E01AFA0C32002507FD /* SizWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D6C7DF1AFA0C31002507FD /* SizWebAPI.swift */; };
+		64D6C7E21AFA13CA002507FD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D6C7E11AFA13CA002507FD /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +36,21 @@
 		640ED4351AF8FF6600746E16 /* LogFacebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogFacebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		640ED4391AF8FF6600746E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		640ED43A1AF8FF6600746E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		640ED43C1AF8FF6600746E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		640ED43C1AF8FF6600746E16 /* FacebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
 		640ED43F1AF8FF6600746E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		640ED4411AF8FF6600746E16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		640ED4441AF8FF6600746E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		640ED44A1AF8FF6700746E16 /* LogFacebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogFacebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		640ED44F1AF8FF6700746E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		640ED4501AF8FF6700746E16 /* LogFacebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFacebookTests.swift; sourceTree = "<group>"; };
+		640ED45A1AF900E200746E16 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		640ED45C1AF9016700746E16 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		640ED45E1AF901BF00746E16 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		640ED45F1AF9068900746E16 /* Story.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Story.storyboard; sourceTree = "<group>"; };
+		640ED4611AF907CC00746E16 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		640ED4631AF91E0E00746E16 /* BackgroundVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundVideoViewController.swift; sourceTree = "<group>"; };
+		64D6C7DF1AFA0C31002507FD /* SizWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SizWebAPI.swift; path = "../../siz-ios-app/Siz/Siz/Utils/SizWebAPI.swift"; sourceTree = "<group>"; };
+		64D6C7E11AFA13CA002507FD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				640ED45B1AF900E200746E16 /* FBSDKCoreKit.framework in Frameworks */,
+				640ED45D1AF9016700746E16 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,8 @@
 		640ED42C1AF8FF6600746E16 = {
 			isa = PBXGroup;
 			children = (
+				640ED45C1AF9016700746E16 /* FBSDKLoginKit.framework */,
+				640ED45A1AF900E200746E16 /* FBSDKCoreKit.framework */,
 				640ED4371AF8FF6600746E16 /* LogFacebook */,
 				640ED44D1AF8FF6700746E16 /* LogFacebookTests */,
 				640ED4361AF8FF6600746E16 /* Products */,
@@ -77,11 +96,15 @@
 		640ED4371AF8FF6600746E16 /* LogFacebook */ = {
 			isa = PBXGroup;
 			children = (
-				640ED43A1AF8FF6600746E16 /* AppDelegate.swift */,
-				640ED43C1AF8FF6600746E16 /* ViewController.swift */,
+				64D6C7DF1AFA0C31002507FD /* SizWebAPI.swift */,
+				640ED45E1AF901BF00746E16 /* Bridging-Header.h */,
+				640ED4631AF91E0E00746E16 /* BackgroundVideoViewController.swift */,
+				640ED43C1AF8FF6600746E16 /* FacebookViewController.swift */,
+				64D6C7E11AFA13CA002507FD /* User.swift */,
+				640ED4611AF907CC00746E16 /* FeedViewController.swift */,
 				640ED43E1AF8FF6600746E16 /* Main.storyboard */,
+				640ED45F1AF9068900746E16 /* Story.storyboard */,
 				640ED4411AF8FF6600746E16 /* Images.xcassets */,
-				640ED4431AF8FF6600746E16 /* LaunchScreen.xib */,
 				640ED4381AF8FF6600746E16 /* Supporting Files */,
 			);
 			path = LogFacebook;
@@ -90,6 +113,8 @@
 		640ED4381AF8FF6600746E16 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				640ED43A1AF8FF6600746E16 /* AppDelegate.swift */,
+				640ED4431AF8FF6600746E16 /* LaunchScreen.xib */,
 				640ED4391AF8FF6600746E16 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +186,7 @@
 				TargetAttributes = {
 					640ED4341AF8FF6600746E16 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7D5G4U829D;
 					};
 					640ED4491AF8FF6700746E16 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -192,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				640ED4601AF9068900746E16 /* Story.storyboard in Resources */,
 				640ED4401AF8FF6600746E16 /* Main.storyboard in Resources */,
 				640ED4451AF8FF6600746E16 /* LaunchScreen.xib in Resources */,
 				640ED4421AF8FF6600746E16 /* Images.xcassets in Resources */,
@@ -212,7 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				640ED43D1AF8FF6600746E16 /* ViewController.swift in Sources */,
+				64D6C7E01AFA0C32002507FD /* SizWebAPI.swift in Sources */,
+				640ED4641AF91E0E00746E16 /* BackgroundVideoViewController.swift in Sources */,
+				64D6C7E21AFA13CA002507FD /* User.swift in Sources */,
+				640ED43D1AF8FF6600746E16 /* FacebookViewController.swift in Sources */,
+				640ED4621AF907CC00746E16 /* FeedViewController.swift in Sources */,
 				640ED43B1AF8FF6600746E16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,9 +373,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ESIEA/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = LogFacebook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LogFacebook/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -352,9 +391,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ESIEA/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = LogFacebook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LogFacebook/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +458,7 @@
 				640ED4561AF8FF6700746E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		640ED4571AF8FF6700746E16 /* Build configuration list for PBXNativeTarget "LogFacebookTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +467,7 @@
 				640ED4591AF8FF6700746E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
